@@ -266,7 +266,7 @@ namespace NewEffects
                 static void Prefix(ref float ___m_healthPerTick)
                 {    
                 
-                    if (EnvMan.instance.IsFreezing())
+                    if (EnvMan.instance.GetCurrentEnvironment().m_name == "SnowStorm" && EnvMan.instance.IsFreezing())
                     {
                     
                         ___m_healthPerTick = -10f;
