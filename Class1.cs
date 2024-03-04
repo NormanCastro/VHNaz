@@ -83,7 +83,7 @@ namespace NewEffects
             holySwordEffect.m_skillLevel = Skills.SkillType.Swords;
             holySwordEffect.m_skillLevelModifier = 15;
             holySwordEffect.m_icon =
-                AssetUtils.LoadSpriteFromFile("C:\\Users\\Norman\\RiderProjects\\NewEffects\\Assets\\reee.png");
+                AssetUtils.LoadSpriteFromFile("C:\\Users\\\\RiderProjects\\NewEffects\\Assets\\reee.png");
 
             lightArmorEffect.m_ttl = 30;
             lightArmorEffect.m_time = 10;
@@ -94,7 +94,7 @@ namespace NewEffects
             moreHpEffect.m_tooltip = "Has atraido la atención de los enemigos";
             moreHpEffect.m_startMessage = "Dragon Rage : Activado";
             moreHpEffect.m_icon =
-                AssetUtils.LoadSpriteFromFile("C:\\Users\\Norman\\RiderProjects\\NewEffects\\Assets\\shieldicon.png");
+                AssetUtils.LoadSpriteFromFile("C:\\Users\\\\RiderProjects\\NewEffects\\Assets\\shieldicon.png");
             moreHpEffect.m_startMessageType = MessageHud.MessageType.Center;
             moreHpEffect.m_ttl = 20;
             moreHpEffect.m_time = 5;
@@ -108,7 +108,7 @@ namespace NewEffects
             lightArmorEffect.m_skillLevelModifier = 5;
             lightArmorEffect.m_icon =
                 AssetUtils.LoadSpriteFromFile(
-                    "C:\\Users\\Norman\\RiderProjects\\NewEffects\\Assets\\lightArmorIcon.png");
+                    "C:\\Users\\\\RiderProjects\\NewEffects\\Assets\\lightArmorIcon.png");
 
             //Estos 2 de abajo son el cooldown xD ( m_ttl - m_time)
             lightArmorEffect.m_ttl = 30;
